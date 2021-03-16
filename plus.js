@@ -37,7 +37,10 @@ fs.readdir('./komutlar/', (err, files) => {
 });
 
 
+client.user.setActivity(`&help | Gif , Users ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)}`, { type: "PLAYING"}); }, 
 
+
+(5000));
 
 client.reload = command => {
     return new Promise((resolve, reject) => {

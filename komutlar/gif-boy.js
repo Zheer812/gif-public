@@ -34,7 +34,7 @@ exports.conf = {
 
 exports.help = {
 
-  name: 'Boy',
+  name: 'boy',
 
   description: 'lrowvn cv msxrd',
 

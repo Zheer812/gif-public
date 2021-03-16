@@ -8,6 +8,7 @@ exports.run = async (client, message, args, msg) => {
 const embed = new Discord.MessageEmbed()
     
 .setColor('BLACK') 
+.setImage("https://images-ext-1.discordapp.net/external/bLlAm3Nz12pHXbKqaPo7tmDylXS44JMFEp5dCrtESoA/%3Fsize%3D1024/https/cdn.discordapp.com/icons/742051058632884405/a_ad7a515a9e8b0f632e329d1debbab414.gif")
 .addField(`**help commands**`,
           
  `

@@ -12,9 +12,12 @@ client.on('ready', async () => {
     client.appInfo = await client.fetchApplication();
   }, 600);
   
- client.user.setActivity(`Darknes Code V12 Gif Bot`, { type:"WATHING" })
-  console.log("[BOT] Kullanıma Hazır!")
-});
+
+client.user.setActivity(`&help | Gif , Users ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)}`, { type: "PLAYING"}); }, 
+
+
+(5000));
+
 
 const log = message => {
   console.log(` ${message}`);
@@ -36,11 +39,6 @@ fs.readdir('./komutlar/', (err, files) => {
     });
 });
 
-
-client.user.setActivity(`&help | Gif , Users ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)}`, { type: "PLAYING"}); }, 
-
-
-(5000));
 
 client.reload = command => {
     return new Promise((resolve, reject) => {

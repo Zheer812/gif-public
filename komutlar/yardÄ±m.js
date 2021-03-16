@@ -11,7 +11,7 @@ const embed = new Discord.MessageEmbed()
 .addField(`**help commands**`,
           
  `
-** &girl | &man | &couple | &baby | &anime | &animal |**
+** &girl | &boy | &couple | &baby | &anime | &animal |**
 
 
 **Info Command**

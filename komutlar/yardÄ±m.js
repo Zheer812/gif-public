@@ -38,5 +38,5 @@ permLevel: 0
 exports.help = {
   name: '',
   description: 'help bot',
-  usage: 'dev jano'
+  usage: '96xJoker'
 };

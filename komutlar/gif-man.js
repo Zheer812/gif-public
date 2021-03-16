@@ -8,7 +8,7 @@ let result = Math.floor((Math.random() * replies.length));
   
 let gifembed = new Discord.MessageEmbed()
 
-.setTitle("Man Gif")
+.setTitle("Boy Gif")
 
 .setColor("BLACK")
 
@@ -34,7 +34,7 @@ exports.conf = {
 
 exports.help = {
 
-  name: 'man',
+  name: 'Boy',
 
   description: 'lrowvn cv msxrd',
 

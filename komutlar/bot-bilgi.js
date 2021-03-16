@@ -20,11 +20,11 @@ exports.run = async (bot, message, args) => {
   
   .addField("`Language Program`",  `**Java Script**`, true)
   
-   .addField("`my name`", `**Scour Gif#1257**`, true)
+   .addField("`my name`", `**Black Plan#9701**`, true)
   
-  .addField("`My ID`",  `**778276774320275487**`, true)
+  .addField("`My ID`",  `**821364810582327326**`, true)
   
-  .addField( "`My Prefix` ",`**.**`,true)
+  .addField( "`My Prefix` ",`**&**`,true)
   
   .addField("**About Memory**", (process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2) + ' MB', true)  
   
@@ -32,7 +32,7 @@ exports.run = async (bot, message, args) => {
   
   .addField("**Node.JS**", `${process.version}`, true)
   
-  .addField("**developer bot**", "<@681553671364018196>")
+  .addField("**developer bot**", "<@724639019325194292>")
   
   return message.channel.send(istatistikler);
   };
